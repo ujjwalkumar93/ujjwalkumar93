@@ -1,54 +1,49 @@
-# 👋 Hi, I'm Ujjwal – Frappe + Frontend Developer (Next.js | React.js)
+# Hi, I'm Ujjwal
 
-I'm a developer focused on building **enterprise-grade web applications** using the **Frappe framework** and modern frontend stacks like **Next.js** and **React.js**. I enjoy working on clean, scalable UIs and robust backend logic – especially in open-source ecosystems.
-
----
-
-## 🛠️ What I Work With
-
-### ⚙️ Backend / Fullstack
-- **Frappe Framework** – Custom app development, ERPNext customizations, DocType scripting, server-side logic
-- **Node.js / Express.js** – APIs, middleware, and backend services
-- **Python** – Business logic in Frappe and utility scripts
-- **REST APIs** – Design, development, and integration
-
-### 💻 Frontend
-- **Next.js & React.js** – SSR, dynamic routing, UI patterns
-- **TypeScript** – Safer, predictable frontend code
-- **Tailwind CSS** – Utility-first, responsive design
-- **Redux Toolkit** – Scalable state management for complex UIs
+I build enterprise-grade products on top of **Frappe** with modern React/Next.js frontends. My current focus is **Petal** — a full-stack framework that replaces Frappe Desk with a fast, themeable, developer-friendly UI.
 
 ---
 
-## 🧩 Areas of Focus
+## Petal
 
-- **Enterprise App Development**
-- **Modular UI/UX for Admin Dashboards**
-- **Custom Frappe Apps for Business Workflows**
-- **Multi-tenant SaaS Platforms**
-- **Open Source Collaboration & Tooling**
+**Petal** is an enterprise frontend framework for Frappe — a drop-in replacement for Frappe Desk built with Next.js, TypeScript, and Tailwind CSS.
 
----
+### What it does
 
-## 🔓 Open Source Ethos
+- **Zero-config Frappe integration** — connects to any Frappe/ERPNext site out of the box; handles auth, sessions, and API calls automatically
+- **Full form engine** — renders any DocType with correct field types, child tables, link fields, validations, and read/edit modes — driven entirely by Frappe metadata
+- **@petal/ui component library** — 30+ production-ready components: `ChildTable`, `FieldInput`, `LinkField`, `DatePicker`, `DocList`, `FrappeChart`, `GlobalSearch`, `SidebarNav`, and more
+- **Custom app SDK** — ship your own Frappe apps as Petal modules with a single `petal.hooks.ts` file; extend sidebar, routes, field behaviors, and form actions without touching core
+- **Workspace pages** — renders Frappe workspace shortcuts, number cards, and dashboard charts natively
+- **CLI** — `petal setup`, `petal create`, `petal dev` for scaffolding and development
 
-I believe in clean code, community-driven solutions, and giving back. Whether it's contributing to small tools or building reusable components for internal teams, I try to keep my work modular and shareable.
+### Tech
 
----
-
-## 🧠 Currently Working On
-
-- Fullstack **Frappe development** – creating custom apps, scripting DocTypes, and extending ERPNext for enterprise use cases  
-- Modern frontend stack using **React.js and Next.js** for clean, performant UIs  
-- Building **Frappe React Kit** – a modular toolkit for integrating Frappe APIs into React apps
+`Next.js 14` · `TypeScript` · `Tailwind CSS` · `Radix UI` · `Frappe REST API` · `pnpm workspaces`
 
 ---
 
-## 🌐 Let's Connect
+## Stack
 
-- LinkedIn: [@ujjwal-kumar-dev](https://www.linkedin.com/in/ujjwal-kumar-dev/)
-- GitHub: [@ujjwalkumar93](https://github.com/ujjwalkumar93)
+| Layer | Technologies |
+|---|---|
+| Frontend | Next.js, React, TypeScript, Tailwind CSS |
+| Backend | Frappe Framework, Python, REST APIs |
+| Tooling | pnpm, ESLint, Turborepo |
+| State | React state, SWR-style fetch patterns |
 
 ---
 
-> *“Write once, reuse forever.”* – My approach to both frontend components and backend logic.
+## Focus Areas
+
+- Enterprise UI frameworks for ERP/business apps
+- Frappe custom app development and DocType engineering
+- Component libraries with strict TypeScript and accessibility
+- Multi-tenant SaaS architecture on Frappe
+
+---
+
+## Connect
+
+- LinkedIn: [ujjwal-kumar-dev](https://www.linkedin.com/in/ujjwal-kumar-dev/)
+- GitHub: [ujjwalkumar93](https://github.com/ujjwalkumar93)
