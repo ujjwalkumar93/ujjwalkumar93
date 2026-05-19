@@ -1,25 +1,36 @@
-# Hi, I'm Ujjwal
+# Hi, I'm Ujjwal 👋
 
-I build enterprise-grade products on top of **Frappe** with modern React/Next.js frontends. My current focus is **Petal** — a full-stack framework that replaces Frappe Desk with a fast, themeable, developer-friendly UI.
+I build enterprise-grade products on top of **Frappe** with modern React/Next.js frontends.
 
 ---
 
-## Petal
+## 🌸 Petal — Modern UI for Frappe & ERPNext
 
-**Petal** is an enterprise frontend framework for Frappe — a drop-in replacement for Frappe Desk built with Next.js, TypeScript, and Tailwind CSS.
+**Petal** is a full-stack framework that replaces Frappe Desk with a fast, themeable, developer-friendly interface — built with Next.js, TypeScript, and Tailwind CSS.
 
-### What it does
+> Drop Frappe Desk. Keep everything else.
 
-- **Zero-config Frappe integration** — connects to any Frappe/ERPNext site out of the box; handles auth, sessions, and API calls automatically
-- **Full form engine** — renders any DocType with correct field types, child tables, link fields, validations, and read/edit modes — driven entirely by Frappe metadata
-- **@petal/ui component library** — 30+ production-ready components: `ChildTable`, `FieldInput`, `LinkField`, `DatePicker`, `DocList`, `FrappeChart`, `GlobalSearch`, `SidebarNav`, and more
-- **Custom app SDK** — ship your own Frappe apps as Petal modules with a single `petal.hooks.ts` file; extend sidebar, routes, field behaviors, and form actions without touching core
-- **Workspace pages** — renders Frappe workspace shortcuts, number cards, and dashboard charts natively
-- **CLI** — `petal setup`, `petal create`, `petal dev` for scaffolding and development
+### Why Petal?
+
+Frappe is a powerful backend. Its default UI isn't keeping up. Petal fixes that — giving your users a clean, modern experience without rebuilding your Frappe apps.
+
+### What you get
+
+| Feature | Details |
+|---|---|
+| **Zero-config integration** | Connects to any Frappe/ERPNext site out of the box — auth, sessions, CSRF, cookies handled automatically |
+| **Full form engine** | Renders any DocType with correct field types, child tables, link fields, `depends_on` expressions, validations, and read/edit modes — driven by Frappe metadata |
+| **List views** | Sortable, filterable, paginated list views for any DocType — no configuration needed |
+| **Workspace pages** | Renders Frappe workspace shortcuts, number cards, and dashboard charts natively |
+| **`@petal/ui` component library** | 30+ production-ready components: `ChildTable`, `FieldInput`, `LinkField`, `DatePicker`, `DocList`, `FrappeChart`, `GlobalSearch`, `SidebarNav`, and more |
+| **Custom app SDK** | Ship your Frappe apps as Petal modules with a single `petal.hooks.ts` — extend sidebar, routes, field behaviors, and form actions without touching core |
+| **CLI** | `petal setup`, `petal create`, `petal dev` for scaffolding and development |
+| **Mobile-first** | Fully responsive — works on phones, tablets, and desktops |
+| **Themeable** | Light/dark mode, custom primary color, border radius, and font — all runtime-configurable |
 
 ### Tech
 
-`Next.js 14` · `TypeScript` · `Tailwind CSS` · `Radix UI` · `Frappe REST API` · `pnpm workspaces`
+`Next.js 14` · `TypeScript` · `Tailwind CSS` · `Radix UI` · `Zustand` · `Frappe REST API` · `pnpm workspaces` · `Turborepo`
 
 ---
 
@@ -29,14 +40,14 @@ I build enterprise-grade products on top of **Frappe** with modern React/Next.js
 |---|---|
 | Frontend | Next.js, React, TypeScript, Tailwind CSS |
 | Backend | Frappe Framework, Python, REST APIs |
-| Tooling | pnpm, ESLint, Turborepo |
-| State | React state, SWR-style fetch patterns |
+| Tooling | pnpm, Turborepo, ESLint |
+| State | Zustand, React state |
 
 ---
 
 ## Focus Areas
 
-- Enterprise UI frameworks for ERP/business apps
+- Enterprise UI frameworks for ERP and business apps
 - Frappe custom app development and DocType engineering
 - Component libraries with strict TypeScript and accessibility
 - Multi-tenant SaaS architecture on Frappe
