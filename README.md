@@ -53,14 +53,6 @@ This is what I'm most excited about right now. I've been exploring how LLM-power
 
 ---
 
-## Other things I've shipped
-
-- **QwickHost** — creator platform for educators and coaches with courses, MCQ exams, certificates, and creator monetization. Next.js + FastAPI + Cloudflare R2.
-- **EduSuite** — full school management system on Frappe (fee collection, admissions, timetabling, results).
-- **Accounting** — CA-grade double-entry accounting app on Frappe with GL, journal entries, and financial statements.
-
----
-
 ## Connect
 
 - GitHub: [ujjwalkumar93](https://github.com/ujjwalkumar93)
