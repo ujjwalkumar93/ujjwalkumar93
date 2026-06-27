@@ -1,65 +1,68 @@
-# Hi, I'm Ujjwal 👋
+# Hey, I'm Ujjwal 👋
 
-I build enterprise-grade products on top of **Frappe** with modern React/Next.js frontends.
+I build full-stack web products — mostly enterprise tools, SaaS platforms, and developer-facing frameworks. My day-to-day is React/Next.js on the frontend, Frappe + FastAPI on the backend, and lately a lot of time spent thinking about how AI agents can actually be useful in real workflows.
+
+Currently deep in open-source work with **[Petal](https://github.com/ujjwalkumar93/petal)** — a modern UI layer for Frappe that replaces Frappe Desk.
 
 ---
 
-## 🌸 Petal — Open-Source Modern UI for Frappe & ERPNext
+## What I'm building
+
+### 🌸 Petal — Open-Source UI for Frappe & ERPNext
 
 **[github.com/ujjwalkumar93/petal](https://github.com/ujjwalkumar93/petal)**
 
-Petal replaces Frappe Desk with a fast, themeable, developer-friendly interface — built with Next.js 14, TypeScript, and Tailwind CSS. MIT licensed.
+Frappe is a powerful framework but its default UI (Frappe Desk) is showing its age. Petal replaces it with a fast, themeable, extensible shell built on Next.js 14 — while keeping everything Frappe does well (DocTypes, REST API, auth, permissions) exactly as-is.
 
 > Drop Frappe Desk. Keep everything else.
 
-### Get started
-
 ```bash
-npm install -g @ujjwalkumar93/petal-cli
-git clone https://github.com/ujjwalkumar93/petal
+git clone https://github.com/ujjwalkumar93/petal.git
 cd petal && pnpm install
 petal setup && petal start
 ```
 
-### What you get
+**What it does:**
 
-| Feature | Details |
+| | |
 |---|---|
-| **Zero-config integration** | Connects to any Frappe/ERPNext site — auth, sessions, CSRF, cookies handled automatically |
-| **Full form engine** | Renders any DocType with correct field types, child tables, link fields, `depends_on` expressions, validations, and read/edit modes |
-| **List views** | Sortable, filterable, paginated list views for any DocType — no config needed |
-| **Workspace pages** | Renders Frappe workspace shortcuts, number cards, and dashboard charts natively |
-| **`@petal/ui` component library** | 30+ components: `ChildTable`, `FieldInput`, `LinkField`, `DatePicker`, `DocList`, `FrappeChart`, `GlobalSearch`, `SidebarNav`, and more |
-| **Custom app SDK** | Ship Frappe apps as Petal modules with a single `petal.hooks.ts` — extend sidebar, routes, and form actions without touching core |
-| **CLI** | `petal setup`, `petal create`, `petal start` for scaffolding and development |
-| **Mobile-first** | Fully responsive across phones, tablets, and desktops |
-| **Themeable** | Light/dark mode, custom primary color, border radius, and font — all runtime-configurable |
+| Connects to any Frappe/ERPNext site | Auth, CSRF, sessions, cookies — zero config |
+| Full DocType form engine | Child tables, link fields, `depends_on`, validations, read/edit modes |
+| Custom app SDK | Ship features as ESM bundles — extend sidebar, routes, forms without touching core |
+| `@petal/ui` component library | 30+ components built on Radix UI + Tailwind |
+| Themeable | Light/dark, custom colors, runtime-switchable palettes |
+| CLI | `petal setup`, `petal create`, `petal start` |
 
-**Tech:** `Next.js 14` · `TypeScript` · `Tailwind CSS` · `Radix UI` · `Zustand` · `Frappe REST API` · `pnpm workspaces` · `Turborepo`
+**Stack:** Next.js 14 · TypeScript · Tailwind CSS · Zustand · Radix UI · pnpm workspaces · Turborepo
 
 ---
 
-## Stack
+## What I work with
 
-| Layer | Technologies |
-|---|---|
-| Frontend | Next.js, React, TypeScript, Tailwind CSS |
-| Backend | Frappe Framework, Python, REST APIs |
-| Tooling | pnpm, Turborepo, ESLint |
-| State | Zustand, React state |
+**Frontend**
+React and Next.js are where I spend most of my time. I've built production apps with the App Router, server components, custom state management with Zustand, and component libraries from scratch. I care about TypeScript, performance, and keeping things maintainable.
+
+**Backend — Frappe**
+I've been in the Frappe ecosystem long enough to know where it shines and where it doesn't. Custom apps, DocType engineering, server scripts, report builders, REST APIs, multi-site setups — I've shipped all of it in production. If you're building anything serious on Frappe or ERPNext, I can help.
+
+**Backend — FastAPI**
+For things that don't fit in Frappe, I reach for FastAPI. Clean async APIs, Pydantic models, proper dependency injection. I use it for standalone services and AI-powered backends.
+
+**Agentic AI**
+This is what I'm most excited about right now. I've been exploring how LLM-powered agents can handle real, multi-step workflows — not just chat interfaces. Tool use, memory, planning loops, integrating agents into existing products. Still early days for me here but I'm going deep. If you're building in this space, I'd love to talk.
 
 ---
 
-## Focus Areas
+## Other things I've shipped
 
-- Open-source UI frameworks for ERP and business apps
-- Frappe custom app development and DocType engineering
-- Component libraries with strict TypeScript and accessibility
-- Multi-tenant SaaS architecture on Frappe
+- **QwickHost** — creator platform for educators and coaches with courses, MCQ exams, certificates, and creator monetization. Next.js + FastAPI + Cloudflare R2.
+- **EduSuite** — full school management system on Frappe (fee collection, admissions, timetabling, results).
+- **Accounting** — CA-grade double-entry accounting app on Frappe with GL, journal entries, and financial statements.
 
 ---
 
 ## Connect
 
-- LinkedIn: [ujjwal-kumar-dev](https://www.linkedin.com/in/ujjwal-kumar-dev/)
 - GitHub: [ujjwalkumar93](https://github.com/ujjwalkumar93)
+- LinkedIn: [ujjwal-kumar-dev](https://www.linkedin.com/in/ujjwal-kumar-dev/)
+- Email: pathakujjwal93@gmail.com
